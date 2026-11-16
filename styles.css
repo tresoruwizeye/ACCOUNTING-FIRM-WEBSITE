@@ -1,5 +1,13 @@
 body {
   margin: 0;
+  padding: 0;
+}
+h1 {
+  max-width: 500px;
+}
+p {
+  max-width: 400px;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -43,15 +51,14 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  max-width: 100%;
 }
 
-h1 {
-  max-width: 500px;
-}
-p {
-  max-width: 400px;
-  margin-bottom: 20px;
-}
+/* home-page */
 
 .button {
   padding: 10px 20px;
@@ -63,6 +70,8 @@ p {
   font-size: 14px;
   margin-top: 20px;
 }
+
+/* Service-page */
 
 .cards-frame {
   display: flex;
@@ -77,6 +86,8 @@ p {
   max-width: 300px;
 }
 
+/* Pricing-page */
+
 table {
   border-collapse: collapse;
   margin-top: 20px;
@@ -88,11 +99,13 @@ th {
   padding: 10px;
 }
 
+/* Contact-page */
+
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 20px;
+  margin: 20px auto;
   max-width: 500px;
 }
 
