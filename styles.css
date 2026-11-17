@@ -6,7 +6,7 @@ h1 {
   max-width: 500px;
 }
 p {
-  max-width: 400px;
+  max-width: 600px;
   margin-bottom: 20px;
 }
 
@@ -59,6 +59,17 @@ footer p {
 }
 
 /* home-page */
+.images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 100%;
+  max-height: 280px;
+  max-width: 500px;
+}
 
 .button {
   padding: 10px 20px;
